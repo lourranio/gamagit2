@@ -4,7 +4,7 @@
 
 :root {
   --color-background-primary: #f0f0f7;
-  --color-background-secondary: #757575;
+  --color-background-secondary: #e7ced9;
   --color-background-tertiary: #ffffff;
   --color-background-quarternary: #288927;
   --color-text-primary: #282a36;
@@ -33,4 +33,11 @@ html, body {
 body {
   background-color: var(--color-background-primary);
   color: var(--color-text-primary);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

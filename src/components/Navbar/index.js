@@ -1,22 +1,26 @@
 import React from 'react';
-import {RiGameFill} from 'react-icons/ri';
+
+import logo from '../../assets/loreal-paris-black-logo.svg';
 
 import * as S from './styled';
+
+
 
 function Navbar() {
   return (
     <>
       <S.Navbar>
-        <S.LinkHome to="/"><RiGameFill size={40} color="#FBC02D"/> PleiGames</S.LinkHome>
+        <S.LinkHome to="/"><img src={logo} alt="Logo" size={40} color="#FBC02D" /></S.LinkHome>
 
         <S.Menu className="nav-menu">
-          <S.MenuItem>Franquias</S.MenuItem>
-          <S.MenuItem>Jogos</S.MenuItem>
-          <S.MenuItem>Expansão</S.MenuItem>
-          <S.MenuItem>Consoles</S.MenuItem>
-          <S.MenuItem>Acessórios</S.MenuItem>
-          <S.MenuItem>Promoção</S.MenuItem>
-          <S.MenuItem>Minha Conta</S.MenuItem>
+          <S.MenuItem>Cuidado com os Cabelos</S.MenuItem>
+          <S.MenuItem>Coloração</S.MenuItem>
+          <S.MenuItem>Pele</S.MenuItem>
+          <S.MenuItem>Beleza</S.MenuItem>
+          <S.MenuItem>Skin</S.MenuItem>
+          <S.MenuItem>O outro lado</S.MenuItem>
+          <S.MenuItem>Testador</S.MenuItem>
+
         </S.Menu>
       </S.Navbar>
     </>
