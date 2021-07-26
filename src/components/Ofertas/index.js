@@ -7,7 +7,11 @@ import antioleosidade from '../../assets/UV-Defender-Antioleosidade.png';
 import aguaMicelarHialuronico from '../../assets/Agua-Micelar-Revitalift.png';
 
 
-import '../../styles/global.css'
+import '../../styles/global.css';
+
+import './styles.css';
+
+
 
 function Ofertas() {
   return (
@@ -20,6 +24,7 @@ function Ofertas() {
           <h4>Hialurônico Sérum Preenchedor</h4>
           <span>REVITALIFT</span>
           <p>R$ 116,99</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -27,6 +32,7 @@ function Ofertas() {
           <h4>Longo dos Sonhos Creme Milagroso 300g</h4>
           <span>ELSEVE‬</span>
           <p>R$ 15,30</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -34,6 +40,7 @@ function Ofertas() {
           <h4>UV-Defender-Antioleosidade.png</h4>
           <span>UV DEFENDER</span>
           <p>R$ 49,90</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -41,6 +48,7 @@ function Ofertas() {
           <h4>Água Micelar Hialurônico 200ml</h4>
           <span>REVITALIFT</span>
           <p>R$ 116,99</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -48,18 +56,20 @@ function Ofertas() {
           <h4>UV-Defender-Antioleosidade.png</h4>
           <span>UV DEFENDER</span>
           <p>R$ 49,90</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
           <img alt="UV-Defender-Antioleosidade.png" src={antioleosidade} class="center" />
           <h4>UV-Defender-Antioleosidade.png</h4>
           <span>UV DEFENDER</span>
-          <p>R$ 49,90</p>
+          <p>R$ 39,90</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
 
       </S.Sale>
-    </S.Container>
+    </S.Container >
   );
 }
 

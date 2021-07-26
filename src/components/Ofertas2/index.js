@@ -6,6 +6,7 @@ import milagroso from '../../assets/Milagroso-pack.png';
 
 
 import '../../styles/global.css'
+import './styles.css';
 
 
 
@@ -20,6 +21,7 @@ function Ofertas2() {
           <h4>Hidra Hialurônico Condicionador Selador</h4>
           <span>REVITALIFT</span>
           <p>R$ 116,99</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -27,6 +29,7 @@ function Ofertas2() {
           <h4>Hidra Hialurônico Creme Preenchedor 250ml</h4>
           <span>ELSEVE‬</span>
           <p>R$ 15,30</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -34,6 +37,7 @@ function Ofertas2() {
           <h4>Hidra Hialurônico Condicionador Selador</h4>
           <span>REVITALIFT</span>
           <p>R$ 116,99</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -41,6 +45,7 @@ function Ofertas2() {
           <h4>Hidra Hialurônico Condicionador Selador</h4>
           <span>REVITALIFT</span>
           <p>R$ 116,99</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
         <S.Item className="item" to="/">
@@ -48,6 +53,7 @@ function Ofertas2() {
           <h4>Hidra Hialurônico Condicionador Selador</h4>
           <span>REVITALIFT</span>
           <p>R$ 116,99</p>
+          <button class="btn first">Add produto</button>
         </S.Item>
 
 
